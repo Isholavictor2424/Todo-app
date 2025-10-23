@@ -1,0 +1,76 @@
+body{
+    background-color: #F5F7FA;
+    margin: 0;
+    height: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+h1 {
+  color: #E2E8F0;
+  font-family: 'Parisienne', serif; 
+  font-size: 48px;
+}
+
+.container{
+    margin-top: auto;
+    padding: 50px;
+   height: auto;
+   width: 600px;
+   background-color: #0F172A;
+   justify-content: center;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+.todo-card{
+    background-color: #1E293B;
+    width: 500px;
+    height: auto;
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    color: white;
+    font-size: 20px;
+    font-family: 'Libre Baskerville', serif;
+}
+#todo-input{
+    width: 400px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+}
+#todo-list{
+    list-style-type: none;
+    padding: 0;
+    margin-top: 20px;
+    width: 100%;
+}.delete{
+    float: right;
+    cursor: pointer;
+    color: red;
+}
+ 
+@media (max-width: 600px){
+    .container{
+        width: 90%;
+        padding: 50px;
+    }
+    .todo-card{
+        width: 100%;
+    }
+    #todo-form{
+    justify-content: center;
+   display: flex;
+   align-items: center;
+   gap: 10px;
+    }
+}button{
+   float: right;
+   background-color: #3B82F6;
+   color: white;
+    border: none;
+    margin-left: 20px;
+}
