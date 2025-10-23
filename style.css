@@ -73,4 +73,12 @@ h1 {
    color: white;
     border: none;
     margin-left: 20px;
+}.restart, .reset{
+    margin-top: 10px;
+    height: 20px;
+    width: 70px;
+    border-radius: 5px;
+    border: none;
+    background-color: #EF4444;
+    color: white;
 }
